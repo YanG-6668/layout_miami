@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
   $('a[href^="#"]').click(function() {
-    const target = $(this).attr('href');
+    let target = $(this).attr('href');
     $('html, body').animate({
       scrollTop: $(target).offset().top
     }, 1500);
