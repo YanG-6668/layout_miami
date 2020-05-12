@@ -269,7 +269,10 @@
   .aboutUs {
     margin-bottom: 62px; }
     .aboutUs__wrapper {
-      grid-template-columns: 1fr;
+      grid-template-columns: minmax(280px, 500px);
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
       grid-gap: 45px; } }
 
 .gallery {
@@ -352,7 +355,10 @@
       .feedback__title {
         margin-bottom: 55px; }
       .feedback__wrapper {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(280px, 500px);
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         grid-gap: 30px; } }
 
 .consultation__title {
@@ -495,7 +501,10 @@
       .contact__title {
         margin-bottom: 55px; }
       .contact__wrapper {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(280px, 500px);
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         grid-gap: 30px; } }
   .contact__item {
     width: 150px; }
